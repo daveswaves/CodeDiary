@@ -2,22 +2,22 @@
 
 Collection of advanced CLI list operations  
 (eg. display files only, hidden files only, sort by modification time etc). [2025-01-29]  
-Documented in email: `List files / folders advanced`
+*Documented in email*: `List files / folders advanced`
 
 Extensive examples of using GPG for public/private key encryption and digital signature. [2025-01-29]  
-Documented in email: `Using GnuPG (GPG)`
+*Documented in email*: `Using GnuPG (GPG)`
 
 Working with IMDbDataFiles to list all films by a given actor or list films rated 7 or more etc. [2025-01-27]  
 `/var/www/html/IMDbDataFiles/getActorFilms.sql`
 
 Harvard / MIT Courses [2025-01-27]  
-Links in email: `CS50 SQL and other courses Harvard / MIT`
+*Links in email*: `CS50 SQL and other courses Harvard / MIT`
 
 Harvard CS50 Cybersecurity 6 part YouTube course. [2025-01-26]  
 [CS50 Cybersecurity](https://youtu.be/watch?v=kmJlnUfMd7I&list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE)
 
 Running SQLite on the command line [2025-01-23]  
-Documented in email: `Running SQLite on the command line`
+*Documented in email*: `Running SQLite on the command line`
 
 Updating VS Code [2025-01-20]
 ```sh
@@ -38,30 +38,32 @@ etc.
 ```
 
 Updating Sublime Text [2024-12-21]  
-```
+```js
 $ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 $ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 $ sudo apt update
 $ sudo apt upgrade sublime-text
 $ subl --version
-# Sublime Text Build 4180
+//-> Sublime Text Build 4180
 
-# Note: Opening from Dock bar may still launch old version.
-# I found that running subl command in terminal opened the latest version.
-# Remove from Dock then select 'Add to Favorites' on Sublime icon opened on command line.
+// Note: Opening from Dock bar may still launch old version.
+// I found that running subl command in terminal opened the latest version.
+// Remove from Dock then select 'Add to Favorites' on Sublime icon opened on command line.
 ```
 Bash script to install required version of Node JS. [2024-11-27]  
 Attached to email: `Install Node JS Bash Script`
 
 Bash scripts. [2024-11-28 & 29]
-```
+```js
 ~/bash_scripts/
-# Note: Assortment of bash tasks:
-#       copy_files.sh
-#       dir_tree_report.sh
-#       rename_files.sh
-#       install_node.sh
-#       permissions_and_exec_set.sh
-#       etc.
+/*
+Note: Assortment of bash tasks:
+     copy_files.sh
+     dir_tree_report.sh
+     rename_files.sh
+     install_node.sh
+     permissions_and_exec_set.sh
+     etc.
+*/
 ```
 ## *** Need to add stuff on using SQLite3 CLI and Harvard CS50 course ***
