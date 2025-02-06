@@ -11,6 +11,17 @@
 
 ---
 
+### @@@ Using bash to list most recently updated files [2025 Jan]
+```sh
+# Lists all files (including sub dir files) and displays their modified dates (newest first).
+# This is saved as an alias: 'mod_files'
+find . -type f ! -path "*/node_modules/*" ! -path "*/.git/*" -printf "%TY-%Tm-%Td %TH:%TM %p\n" | sort -r
+
+# Only lists files updated today (saved as 'mods_today' alias). Both ignore the node_modules/  and .git/ directories.
+find . -type f ! -path "*/node_modules/*" ! -path "*/.git/*" -newermt "$(date +%Y-%m-%d)" -printf "%TY-%Tm-%Td %TH:%TM %p\n" | sort -r
+```
+---
+
 ### @@@ Working with IMDbDataFiles to list all films by a given actor or list films rated 7 or more etc. [2025-01-27]  
 `/var/www/html/IMDbDataFiles/getActorFilms.sql`
 
