@@ -1,5 +1,16 @@
 # Code Diary
 
+### @@@ Vue JS Filter Table. [2025-02-07]
+This project uses multiple components to create a filterable and searchable table that connects to a backend JSON table.  
+It utilises `Express.js`, a lightweight web server, and `CORS` middleware to enable cross-domain requests.
+
+Records can be searched by name, title, or status. Radio buttons allow filtering between past records or today's records,  
+while checkboxes enable filtering by status: In Progress, Completed and Not Started.  
+All filters and search operations can be combined for more refined results.
+[GitHub](https://github.com/daveswaves/vuejs_filter_table)
+
+---
+
 ### @@@ Collection of advanced CLI list operations  
 (eg. display files only, hidden files only, sort by modification time etc). [2025-01-29]  
 *Documented in email*: `List files / folders advanced`
