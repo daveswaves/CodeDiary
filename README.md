@@ -95,6 +95,16 @@ $ sudo apt install code
 
 ---
 
+### ➤ Proof-of-Work Python script [2025-01-13] 
+```
+~/pypo/src/animated_pow.py
+```
+This is still under development. The objective is to emulate the difficulty adjustment algorithm  
+which adjusts automatically to make the PoW process run for a fixed amount of time (eg. 1 minute).  
+The target threshold gets stored in the header in nBits format.
+
+---
+
 ### ➤ A collection of python scripts exploring seedSigner functionality (eg. animated QR codes) [2025 early Jan]
 ```
 ~/pypo/src/decode_temporal_qr_imgs.py
