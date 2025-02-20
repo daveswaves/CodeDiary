@@ -1,5 +1,12 @@
 # Code Diary
 
+### ➤ Vue JS Let's Build an Offline-First Vue App. [2025-02 / early Feb]
+A Laracasts project that codes a PWA notes app, using IndexedDB to store data offline,  
+and Tiptap - the open-source headless WYSIWG editor.  
+[https://laracasts.com/series/lets-build-an-offline-first-vue-app](https://laracasts.com/series/lets-build-an-offline-first-vue-app)
+
+---
+
 ### ➤ Vue JS Filter Table. [2025-02-07]
 This project uses multiple components to create a filterable and searchable table that connects to a backend JSON table.  
 It utilises `Express.js`, a lightweight web server, and `CORS` middleware to enable cross-domain requests.
